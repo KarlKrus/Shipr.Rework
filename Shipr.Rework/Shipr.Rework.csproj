@@ -77,8 +77,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Shipr.Project\css\bootstrap.css" />
+    <Content Include="Shipr.Project\css\site.css" />
     <Content Include="Shipr.Project\Default.aspx" />
+    <Content Include="Shipr.Project\images\delivery.jpg" />
+    <Content Include="Shipr.Project\images\fb.png" />
     <Content Include="Shipr.Project\images\logo.png" />
+    <Content Include="Shipr.Project\images\truck.jpg" />
+    <Content Include="Shipr.Project\images\truck.png" />
     <Content Include="Shipr.Project\scripts\bootstrap.js" />
     <Content Include="Shipr.Project\scripts\jquery-3.1.1.js" />
     <Content Include="Web.config" />
