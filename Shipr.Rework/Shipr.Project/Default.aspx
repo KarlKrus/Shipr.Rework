@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Shipr</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/site.css" rel="stylesheet" />
     <script src="scripts/jquery-3.1.1.js" type="text/javascript"></script>
