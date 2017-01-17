@@ -80,10 +80,13 @@
     <Content Include="Shipr.Project\css\site.css" />
     <Content Include="Shipr.Project\Default.aspx" />
     <Content Include="Shipr.Project\images\delivery.jpg" />
+    <Content Include="Shipr.Project\images\delvery2.jpg" />
     <Content Include="Shipr.Project\images\fb.png" />
     <Content Include="Shipr.Project\images\logo.png" />
+    <Content Include="Shipr.Project\images\logoname.png" />
     <Content Include="Shipr.Project\images\truck.jpg" />
     <Content Include="Shipr.Project\images\truck.png" />
+    <Content Include="Shipr.Project\List.aspx" />
     <Content Include="Shipr.Project\scripts\bootstrap.js" />
     <Content Include="Shipr.Project\scripts\jquery-3.1.1.js" />
     <Content Include="Web.config" />
@@ -103,6 +106,13 @@
     </Compile>
     <Compile Include="Shipr.Project\Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Shipr.Project\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

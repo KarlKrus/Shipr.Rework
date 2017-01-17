@@ -13,27 +13,19 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
-            <br />
             <div class="row">
                 <div class="pull-left">
-                    <h1 style="font-family: Comfortaa">
-                        <img alt="" src="images/logo.png" height="50" width="50" />
-                        Shipr</h1>
+                    <img alt="" src="images/logoname.png" height="80" width="200" class="img-responsive" />
                 </div>
                 <div class="pull-right">
-                    <h2 style="text-align: center; font-family: Comfortaa">
-                        <asp:LinkButton ID="LinkButton1" runat="server">List</asp:LinkButton>
+                    <h1 style="text-align: center; font-family: 'Century Gothic'">
+                        <a href="List.aspx">List</a>
                         &nbsp;&nbsp;&nbsp;
-                        <asp:LinkButton ID="LinkButton2" runat="server">Setup</asp:LinkButton>
-                    </h2>
+                        <a href="List.aspx">Setup</a>
+                    </h1>
                 </div>
             </div>
-            <div class="row">
-                <h3 style="text-align: center; font-family: 'Century Gothic'"><i>Kunware quotes to na importante at may silbi hahaha</i> - Carl</h3>
-
-            </div>
         </div>
-        <img alt="" src="images/fb.png" height="350" width="" class="img-responsive" />
     </form>
 </body>
 </html>

@@ -13,6 +13,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div class="navwell">
+            <div class="row ">
+                <div class="pull-left">
+                    <a href="Default.aspx">
+                        <img alt="" src="images/logoname.png" height="80" width="200" class="img-responsive" /></a>
+                </div>
+                <div class="pull-right">
+                    <h1 style="text-align: center; font-family: 'Century Gothic';color:rgb(0, 162, 232)">
+                        <a href="List.aspx">List</a>
+                        &nbsp;&nbsp;
+                        <a href="List.aspx">Setup</a>
+                    </h1>
+                </div>
+            </div>
+        </div>
         <br />
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

@@ -2,9 +2,9 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: rgba(248,248,248,255);
-    /*background: url("../images/truck.png") no-repeat center center fixed;
-    background-size: cover;*/
+    /*background-color: rgba(248,248,248,255);*/
+    background: url("../images/delvery2.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* Wrapping element */
@@ -12,4 +12,9 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
 }
