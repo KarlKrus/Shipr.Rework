@@ -15,15 +15,22 @@
         <div class="container">
             <div class="row">
                 <div class="pull-left">
-                    <img alt="" src="images/logoname.png" height="80" width="200" class="img-responsive" />
+                    <img alt="" src="images/name.png" height="50" width="150" class="img-responsive" />
                 </div>
                 <div class="pull-right">
-                    <h1 style="text-align: center; font-family: 'Century Gothic'">
-                        <a href="List.aspx">List</a>
+                    <h1 style="text-align: center; font-family: 'Century Gothic';">
+                        <a href="List.aspx" style="color:white">List</a>
                         &nbsp;&nbsp;&nbsp;
-                        <a href="List.aspx">Setup</a>
+                        <a href="List.aspx" style="color:white">Setup</a>
                     </h1>
                 </div>
+            </div>
+            <br /><br />
+            <div class="row" style="text-align:center">
+                <img alt="" src="images/logo.png" height="100" width="100" class="img-responsive center-block" />
+                <h1 style="font-family:Comfortaa;color:white;font-size:400%">Shipping never been this good. Kdot.</h1>
+                <br />
+                <asp:LinkButton ID="lnkbtnSetup" runat="server" CssClass="btn btn-success" Font-Size="XX-Large">Continue</asp:LinkButton>
             </div>
         </div>
     </form>
