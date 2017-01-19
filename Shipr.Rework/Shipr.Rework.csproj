@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Shipr.Project\Default.Master" />
+    <None Include="Properties\PublishProfiles\Carl.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -90,6 +91,7 @@
     <Content Include="Shipr.Project\List.aspx" />
     <Content Include="Shipr.Project\scripts\bootstrap.js" />
     <Content Include="Shipr.Project\scripts\jquery-3.1.1.js" />
+    <Content Include="Shipr.Project\Setup.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -116,6 +118,13 @@
     </Compile>
     <Compile Include="Shipr.Project\List.aspx.designer.cs">
       <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shipr.Project\Setup.aspx.cs">
+      <DependentUpon>Setup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\Setup.aspx.designer.cs">
+      <DependentUpon>Setup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

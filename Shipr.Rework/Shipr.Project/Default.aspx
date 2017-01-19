@@ -19,18 +19,20 @@
                 </div>
                 <div class="pull-right">
                     <h1 style="text-align: center; font-family: 'Century Gothic';">
-                        <a href="List.aspx" style="color:white">List</a>
+                        <a href="List.aspx" style="color: white">List</a>
                         &nbsp;&nbsp;&nbsp;
-                        <a href="List.aspx" style="color:white">Setup</a>
+                        <a href="Setup.aspx" style="color: white">Setup</a>
                     </h1>
                 </div>
             </div>
-            <br /><br />
-            <div class="row" style="text-align:center">
+            <br />
+            <br />
+            <div class="row" style="text-align: center">
                 <img alt="" src="images/logo.png" height="100" width="100" class="img-responsive center-block" />
-                <h1 style="font-family:Comfortaa;color:white;font-size:400%">Shipping never been this good. Kdot.</h1>
+                <h1 style="font-family: Comfortaa; color: white; font-size: 400%">Shipping never been this good. Kdot.</h1>
                 <br />
-                <asp:LinkButton ID="lnkbtnSetup" runat="server" CssClass="btn btn-success" Font-Size="XX-Large">Continue</asp:LinkButton>
+                <%--<asp:LinkButton ID="lnkbtnSetup" runat="server" CssClass="btn btn-success" Font-Size="XX-Large">Continue</asp:LinkButton>--%>
+                <a href="Setup.aspx" class="btn btn-outline-success" style="font-size: xx-large; font-family: 'Century Gothic'">Continue</a>
             </div>
         </div>
     </form>

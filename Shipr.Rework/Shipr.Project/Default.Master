@@ -23,7 +23,7 @@
                     <h1 style="text-align: center; font-family: 'Century Gothic';color:rgb(0, 162, 232)">
                         <a href="List.aspx">List</a>
                         &nbsp;&nbsp;
-                        <a href="List.aspx">Setup</a>
+                        <a href="Setup.aspx">Setup</a>
                     </h1>
                 </div>
             </div>
