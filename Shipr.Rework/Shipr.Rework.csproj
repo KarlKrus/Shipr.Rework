@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Shipr.Project\css\checkbox.css" />
     <Content Include="Shipr.Project\Default.Master" />
     <None Include="Properties\PublishProfiles\Carl.pubxml" />
     <None Include="Web.Debug.config">

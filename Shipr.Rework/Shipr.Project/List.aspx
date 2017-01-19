@@ -10,9 +10,9 @@
         <br />
         <div class="row">
             <ul class="nav nav-tabs nav-justified" style="font-family: 'Century Gothic'">
-                <%--<li class="active"><a data-toggle="tab" href="#home">
+                <li><a data-toggle="tab" href="#home">
                     <h4>Home</h4>
-                </a></li>--%>
+                </a></li>
                 <li class="active"><a data-toggle="tab" href="#active">
                     <h4>Active</h4>
                 </a></li>
@@ -22,14 +22,15 @@
             </ul>
 
             <div class="tab-content">
-                <%--<div id="home" class="tab-pane fade in active">
+                <div id="home" class="tab-pane fade">
                     <h3>HOME</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>--%>
+                </div>
                 <div id="active" class="tab-pane fade in active">
                     <h3>Active Promotions</h3>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive table-striped" GridLines="None" AutoGenerateColumns="false">
+                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive table-striped" 
+                        GridLines="None" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanging="grdvwPromos_PageIndexChanging">
                         <Columns>
                             <asp:TemplateField>
                                 <HeaderTemplate>
@@ -74,7 +75,8 @@
                             </asp:TemplateField>
                             <asp:CheckBoxField />
                         </Columns>
-                        <HeaderStyle BackColor="#FFB5E61D" ForeColor="Black"  />
+                        <HeaderStyle BackColor="#5cb85c" ForeColor="white"  />
+                        <PagerStyle CssClass="btn btn-outline-info" />
                     </asp:GridView>
                 </div>
                 <div id="inactive" class="tab-pane fade">
