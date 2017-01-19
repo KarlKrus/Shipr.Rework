@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShipR.Business;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,11 @@ namespace Shipr.Rework.Shipr.Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                grdvwPromos.DataSource = PromoManagement.GetActivePromos().Tables[0];
+                grdvwPromos.DataBind();
+            }
         }
     }
 }

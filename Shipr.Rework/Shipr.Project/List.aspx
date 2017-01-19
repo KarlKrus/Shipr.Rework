@@ -29,7 +29,7 @@
                 <div id="active" class="tab-pane fade">
                     <h3>Active Promotions</h3>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-responsive ">
+                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-responsive" GridLines="None" AutoGenerateColumns="false">
                         <Columns>
                             <asp:TemplateField>
                                 <HeaderTemplate>
