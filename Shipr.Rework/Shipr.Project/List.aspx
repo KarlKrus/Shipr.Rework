@@ -5,15 +5,15 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <div class="row">
-            <h1 style="font-family: 'Century Gothic'">Shipping Promotions</h1>
+            <h1 style="font-family: 'Century Gothic';text-align:center">Shipping Promotions</h1>
         </div>
         <br />
         <div class="row">
             <ul class="nav nav-tabs nav-justified" style="font-family: 'Century Gothic'">
-                <li class="active"><a data-toggle="tab" href="#home">
+                <%--<li class="active"><a data-toggle="tab" href="#home">
                     <h4>Home</h4>
-                </a></li>
-                <li><a data-toggle="tab" href="#active">
+                </a></li>--%>
+                <li class="active"><a data-toggle="tab" href="#active">
                     <h4>Active</h4>
                 </a></li>
                 <li><a data-toggle="tab" href="#inactive">
@@ -22,14 +22,14 @@
             </ul>
 
             <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
+                <%--<div id="home" class="tab-pane fade in active">
                     <h3>HOME</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div id="active" class="tab-pane fade">
+                </div>--%>
+                <div id="active" class="tab-pane fade in active">
                     <h3>Active Promotions</h3>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-responsive" GridLines="None" AutoGenerateColumns="false">
+                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive table-striped" GridLines="None" AutoGenerateColumns="false">
                         <Columns>
                             <asp:TemplateField>
                                 <HeaderTemplate>
@@ -42,11 +42,9 @@
                                 </ItemTemplate>
 
                             </asp:TemplateField>
-
                             <asp:HyperLinkField
                                 DataNavigateUrlFields="PromoID" DataNavigateUrlFormatString="~/ShipR.Project/Setup.aspx?promoID={0}"
                                 Text="Edit" />
-
                             <asp:BoundField DataField="promoID" HeaderText="ID" SortExpression="PromoID"></asp:BoundField>
                             <asp:TemplateField HeaderText="Name" ControlStyle-Width="200" SortExpression="Name">
                                 <ItemTemplate>
@@ -76,6 +74,7 @@
                             </asp:TemplateField>
                             <asp:CheckBoxField />
                         </Columns>
+                        <HeaderStyle BackColor="#FFB5E61D" ForeColor="Black"  />
                     </asp:GridView>
                 </div>
                 <div id="inactive" class="tab-pane fade">
