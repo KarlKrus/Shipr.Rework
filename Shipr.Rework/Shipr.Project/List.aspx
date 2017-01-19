@@ -29,7 +29,7 @@
                 <div id="active" class="tab-pane fade in active">
                     <h3>Active Promotions</h3>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive table-striped" 
+                    <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive" 
                         GridLines="None" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanging="grdvwPromos_PageIndexChanging">
                         <Columns>
                             <asp:TemplateField>
@@ -76,7 +76,7 @@
                             <asp:CheckBoxField />
                         </Columns>
                         <HeaderStyle BackColor="#5cb85c" ForeColor="white"  />
-                        <PagerStyle CssClass="btn btn-outline-info" />
+                         <PagerStyle HorizontalAlign="Center"/>
                     </asp:GridView>
                 </div>
                 <div id="inactive" class="tab-pane fade">
