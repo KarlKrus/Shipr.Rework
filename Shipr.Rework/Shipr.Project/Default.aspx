@@ -33,7 +33,7 @@
                 </h1>
                 <br />
                 <%--<asp:LinkButton ID="lnkbtnSetup" runat="server" CssClass="btn btn-success" Font-Size="XX-Large">Continue</asp:LinkButton>--%>
-                <a href="Setup.aspx" class="btn btn-outline-success" style="font-size: xx-large; font-family: 'Century Gothic'">Continue</a>
+                <a href="List.aspx" class="btn btn-outline-success" style="font-size: xx-large; font-family: 'Century Gothic'">Continue</a>
             </div>
         </div>
     </form>

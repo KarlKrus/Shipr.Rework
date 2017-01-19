@@ -7,7 +7,6 @@
         <div class="row">
             <h1 style="font-family: 'Century Gothic';text-align:center">Shipping Promotions</h1>
         </div>
-        <br />
         <div class="row">
             <ul class="nav nav-tabs nav-justified" style="font-family: 'Century Gothic'">
                 <li><a data-toggle="tab" href="#home">
@@ -30,7 +29,7 @@
                     <h3>Active Promotions</h3>
                     <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive" 
                         GridLines="None" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanging="grdvwPromos_PageIndexChanging" 
-                        PageSize="10" OnSorting="grdvwPromos_Sorting">
+                        PageSize="7" AllowSorting="true" OnSorting="grdvwPromos_Sorting">
                         <Columns>
                             <asp:TemplateField>
                                 <HeaderTemplate>

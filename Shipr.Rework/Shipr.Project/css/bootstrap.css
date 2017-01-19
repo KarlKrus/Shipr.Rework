@@ -7418,6 +7418,9 @@ button.list-group-item-danger {
     background-color: white;
     border: 1px solid #e3e3e3;
     border-radius: 1px;
+    position: static;
+    z-index: 1000;
+    top:0px;
 }
 
 .well {
