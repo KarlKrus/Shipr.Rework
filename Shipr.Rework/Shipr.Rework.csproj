@@ -48,6 +48,18 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Source\Repos\shipr\SHIPR\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Source\Repos\shipr\SHIPR\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Source\Repos\shipr\SHIPR\bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -98,6 +110,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShipR.Business\PromoManagement.cs" />
+    <Compile Include="ShipR.Business\UserAccess.cs" />
+    <Compile Include="ShipR.Data\DataHelper.cs" />
+    <Compile Include="ShipR.Data\LookUpData.cs" />
+    <Compile Include="ShipR.Data\PromoData.cs" />
+    <Compile Include="ShipR.Data\UserData.cs" />
+    <Compile Include="ShipR.Entities\Discount.cs" />
+    <Compile Include="ShipR.Entities\DiscountType.cs" />
+    <Compile Include="ShipR.Entities\Lookup.cs" />
+    <Compile Include="ShipR.Entities\Promo.cs" />
+    <Compile Include="ShipR.Entities\PromoType.cs" />
+    <Compile Include="ShipR.Entities\Shipping.cs" />
+    <Compile Include="ShipR.Entities\Store.cs" />
+    <Compile Include="ShipR.Entities\User.cs" />
     <Compile Include="Shipr.Project\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
