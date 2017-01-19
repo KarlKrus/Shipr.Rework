@@ -20,6 +20,23 @@ namespace Shipr.Rework.Shipr.Project
             }
         }
 
+        private string ConvertSortDirectionToSql(SortDirection sortDirection)
+        {
+            string newSortDirection = String.Empty;
+            switch (sortDirection)
+            {
+                case SortDirection.Ascending:
+                    newSortDirection = "ASC";
+                    break;
+
+                case SortDirection.Descending:
+                    newSortDirection = "DESC";
+                    break;
+            }
+
+            return newSortDirection;
+        }
+
         protected void grdvwPromos_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
             DataTable dataTable = PromoManagement.GetActivePromos().Tables[0];
@@ -27,6 +44,18 @@ namespace Shipr.Rework.Shipr.Project
                 grdvwPromos.DataSource = dataTable;
             grdvwPromos.PageIndex = e.NewPageIndex;
             grdvwPromos.DataBind();
+        }
+
+        protected void grdvwPromos_Sorting(object sender, GridViewSortEventArgs e)
+        {
+            DataTable dataTable = PromoManagement.GetActivePromos().Tables[0];
+            if (dataTable != null)
+            {
+                DataView dataView = new DataView(dataTable);
+                dataView.Sort = e.SortExpression + " " + ConvertSortDirectionToSql(e.SortDirection);
+                grdvwPromos.DataSource = dataView;
+                grdvwPromos.DataBind();
+            }
         }
     }
 }

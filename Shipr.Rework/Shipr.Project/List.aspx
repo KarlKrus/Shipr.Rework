@@ -24,13 +24,13 @@
             <div class="tab-content">
                 <div id="home" class="tab-pane fade">
                     <h3>HOME</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>(Dito mapupunta yung mga patok na promos hahahahaha) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div id="active" class="tab-pane fade in active">
                     <h3>Active Promotions</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <asp:GridView ID="grdvwPromos" runat="server" CssClass="table table-hover table-condensed table-responsive" 
-                        GridLines="None" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanging="grdvwPromos_PageIndexChanging">
+                        GridLines="None" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanging="grdvwPromos_PageIndexChanging" 
+                        PageSize="10" OnSorting="grdvwPromos_Sorting">
                         <Columns>
                             <asp:TemplateField>
                                 <HeaderTemplate>
