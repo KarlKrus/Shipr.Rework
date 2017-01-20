@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Shipr.Project\controls\Duration.ascx" />
     <Content Include="Shipr.Project\controls\PromoName.ascx" />
     <Content Include="Shipr.Project\controls\StoreSelector.ascx" />
     <Content Include="Shipr.Project\css\checkbox.css" />
@@ -127,6 +128,13 @@
     <Compile Include="ShipR.Entities\Shipping.cs" />
     <Compile Include="ShipR.Entities\Store.cs" />
     <Compile Include="ShipR.Entities\User.cs" />
+    <Compile Include="Shipr.Project\controls\Duration.ascx.cs">
+      <DependentUpon>Duration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\Duration.ascx.designer.cs">
+      <DependentUpon>Duration.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Shipr.Project\controls\PromoName.ascx.cs">
       <DependentUpon>PromoName.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -7,63 +7,54 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Shipr.Rework.Shipr.Project {
+namespace Shipr.Rework.Shipr.Project.controls {
     
     
-    public partial class Setup {
+    public partial class Duration {
         
         /// <summary>
-        /// txtbxSKUSearch control.
+        /// ltrlTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtbxSKUSearch;
+        protected global::System.Web.UI.WebControls.Literal ltrlTitle;
         
         /// <summary>
-        /// lnkbtnSKUSearch control.
+        /// lblStartDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkbtnSKUSearch;
+        protected global::System.Web.UI.WebControls.Label lblStartDate;
         
         /// <summary>
-        /// pnlSKUResult control.
+        /// txtStartDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlSKUResult;
+        protected global::System.Web.UI.WebControls.TextBox txtStartDate;
         
         /// <summary>
-        /// uiPromoName control.
+        /// ddlStartTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Shipr.Rework.Shipr.Project.controls.PromoName uiPromoName;
+        protected global::System.Web.UI.WebControls.DropDownList ddlStartTime;
         
         /// <summary>
-        /// uiStoreSelect control.
+        /// lblEndDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Shipr.Rework.Shipr.Project.controls.StoreSelector uiStoreSelect;
-        
-        /// <summary>
-        /// uiDuration control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Shipr.Rework.Shipr.Project.controls.Duration uiDuration;
+        protected global::System.Web.UI.WebControls.Label lblEndDate;
     }
 }

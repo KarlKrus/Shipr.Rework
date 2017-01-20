@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Shipr.Project/Default.Master" AutoEventWireup="true" CodeBehind="Setup.aspx.cs" Inherits="Shipr.Rework.Shipr.Project.Setup" %>
 <%@ Register TagPrefix="ucPromoName" TagName="PromoName" Src="~/Shipr.Project/controls/PromoName.ascx" %>
 <%@ Register TagPrefix="ucStoreSelector" TagName="StoreSelector" Src="~/Shipr.Project/controls/StoreSelector.ascx" %>
+<%@ Register TagPrefix="ucDuration" TagName="Duration" Src="~/Shipr.Project/controls/Duration.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -28,6 +29,7 @@
             <div class="col-sm-9">
                 <ucPromoName:PromoName ID="uiPromoName" runat="server" Title="1. Set the promo name" />
                 <ucStoreSelector:StoreSelector ID="uiStoreSelect" runat="server" Title="3. Choose the store/s that the promo applies to" />
+                <ucDuration:Duration ID="uiDuration" runat="server" Title="4. Set the promo duration" />
             </div>
         </div>
     </div>
