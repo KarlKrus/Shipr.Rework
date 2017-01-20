@@ -33,8 +33,6 @@ namespace Shipr.Rework.Shipr.Project.controls
                 }
 
             }
-
-
         }
     }
 }

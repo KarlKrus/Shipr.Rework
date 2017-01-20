@@ -81,6 +81,7 @@
     <Content Include="packages.config" />
     <Content Include="Shipr.Project\controls\Duration.ascx" />
     <Content Include="Shipr.Project\controls\PromoName.ascx" />
+    <Content Include="Shipr.Project\controls\ShipMethodSelector.ascx" />
     <Content Include="Shipr.Project\controls\StoreSelector.ascx" />
     <Content Include="Shipr.Project\css\checkbox.css" />
     <Content Include="Shipr.Project\Default.Master" />
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="Shipr.Project\controls\PromoName.ascx.designer.cs">
       <DependentUpon>PromoName.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\ShipMethodSelector.ascx.cs">
+      <DependentUpon>ShipMethodSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\ShipMethodSelector.ascx.designer.cs">
+      <DependentUpon>ShipMethodSelector.ascx</DependentUpon>
     </Compile>
     <Compile Include="Shipr.Project\controls\StoreSelector.ascx.cs">
       <DependentUpon>StoreSelector.ascx</DependentUpon>
