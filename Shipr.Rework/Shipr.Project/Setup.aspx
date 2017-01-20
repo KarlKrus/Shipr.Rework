@@ -43,11 +43,12 @@
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-body text-center" style="font-size:xx-large">
-                        <asp:LinkButton ID="lnkbtnSubmit" runat="server" CssClass="btn btn-outline-primary">Submit</asp:LinkButton>
-                        <asp:LinkButton ID="lnkbtnCancel" runat="server" CssClass="btn btn-outline-danger">Cancel</asp:LinkButton>
+                    <div class="panel-body text-center">
+                        <asp:LinkButton ID="lnkbtnSubmit" runat="server" CssClass="btn btn-outline-primary" Font-Size="Large">Submit</asp:LinkButton>
+                        <a href="Default.aspx" class="btn btn-outline-danger" style="font-size: large;">Cancel</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </asp:Content>

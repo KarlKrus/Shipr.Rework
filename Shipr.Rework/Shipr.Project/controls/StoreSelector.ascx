@@ -6,7 +6,7 @@
     </div>
     <div class="panel-body">
         <asp:CheckBoxList ID="chklstStore" runat="server" RepeatDirection="Horizontal"
-            RepeatColumns="4" CssClass="checkbox checkbox-success table table-responsive"
+            RepeatColumns="6" CssClass="checkbox checkbox-success table table-responsive"
             RepeatLayout="Table">
         </asp:CheckBoxList>
     </div>
