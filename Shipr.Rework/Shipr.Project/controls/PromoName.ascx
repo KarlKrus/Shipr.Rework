@@ -6,7 +6,7 @@
     </div>
     <div class="panel-body">
         <asp:PlaceHolder ID="plchldrPromoName" runat="server" Visible="true">
-            <asp:Label ID="lblPromoName" runat="server" CssClass="control-label">Promo Name: </asp:Label>*
+            <asp:Label ID="lblPromoName" runat="server" CssClass="control-label">Promo Name:</asp:Label><label style="color:red">*</label>
             <asp:TextBox ID="txtbxPromoName" runat="server" MaxLength="50" CssClass="form-control"></asp:TextBox>
         </asp:PlaceHolder>
     </div>

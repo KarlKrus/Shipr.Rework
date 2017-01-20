@@ -19,6 +19,7 @@ namespace Shipr.Rework.Shipr.Project
             {
                 lookup = PromoManagement.GetGenericLookUp();
                 uiStoreSelect.Source = lookup.Stores;
+                uiShipMethod.Source = lookup.Shippings;
             }
         }
     }

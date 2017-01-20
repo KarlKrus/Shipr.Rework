@@ -65,5 +65,14 @@ namespace Shipr.Rework.Shipr.Project {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Shipr.Rework.Shipr.Project.controls.Duration uiDuration;
+        
+        /// <summary>
+        /// uiShipMethod control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Shipr.Rework.Shipr.Project.controls.ShipMethodSelector uiShipMethod;
     }
 }

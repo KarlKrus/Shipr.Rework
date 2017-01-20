@@ -2,6 +2,7 @@
 <%@ Register TagPrefix="ucPromoName" TagName="PromoName" Src="~/Shipr.Project/controls/PromoName.ascx" %>
 <%@ Register TagPrefix="ucStoreSelector" TagName="StoreSelector" Src="~/Shipr.Project/controls/StoreSelector.ascx" %>
 <%@ Register TagPrefix="ucDuration" TagName="Duration" Src="~/Shipr.Project/controls/Duration.ascx" %>
+<%@ Register TagPrefix="ucShipMethodSelector" TagName="ShipMethodSelector" Src="~/Shipr.Project/controls/ShipMethodSelector.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -30,6 +31,7 @@
                 <ucPromoName:PromoName ID="uiPromoName" runat="server" Title="1. Set the promo name" />
                 <ucStoreSelector:StoreSelector ID="uiStoreSelect" runat="server" Title="3. Choose the store/s that the promo applies to" />
                 <ucDuration:Duration ID="uiDuration" runat="server" Title="4. Set the promo duration" />
+                <ucShipMethodSelector:ShipMethodSelector ID="uiShipMethod" runat="server" Title="5. Choose a shipping method that the promo applies to" />
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
     <div class="panel-body">
         <div class="row">
             <div class="col-sm-6">
-                <asp:Label ID="lblStartDate" runat="server" CssClass="control-label">Start date:* </asp:Label><br />
+                <asp:Label ID="lblStartDate" runat="server" CssClass="control-label">Start date:</asp:Label><label style="color:red">*</label><br />
                 <div class="row">
                     <div class="col-sm-6">
                         <asp:TextBox ID="txtStartDate" runat="server" onfocus="this.value=='MM/DD/YYYY'?this.value='':null" MaxLength="10" CssClass="form-control" TextMode="Date">MM/DD/YYYY</asp:TextBox>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <asp:Label ID="lblEndDate" runat="server" CssClass="control-label">End date:* </asp:Label><br />
+                <asp:Label ID="lblEndDate" runat="server" CssClass="control-label">End date:</asp:Label><label style="color:red">*</label><br />
 
                 <div class="row">
                     <div class="col-sm-6">
@@ -83,3 +83,4 @@
             </div>
         </div>
     </div>
+</div>
