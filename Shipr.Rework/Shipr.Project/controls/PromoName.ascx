@@ -2,7 +2,7 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h4><asp:Literal ID="ltrlTitle" runat="server"></asp:Literal></h4>
+        <h5><asp:Literal ID="ltrlTitle" runat="server"></asp:Literal></h5>
     </div>
     <div class="panel-body">
         <asp:PlaceHolder ID="plchldrPromoName" runat="server" Visible="true">
