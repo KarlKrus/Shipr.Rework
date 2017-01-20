@@ -29,7 +29,7 @@
             <br />
             <div class="row" style="text-align: center">
                 <img alt="" src="images/logo.png" height="100" width="100" class="img-responsive center-block" />
-                <h1 style="font-family: Comfortaa; color: white; font-size: 400%">Shipping never been this good.<br />
+                <h1 style="font-family: Comfortaa; color: white; font-size: 400%">Shipping, never been this good.<br />
                 </h1>
                 <br />
                 <%--<asp:LinkButton ID="lnkbtnSetup" runat="server" CssClass="btn btn-success" Font-Size="XX-Large">Continue</asp:LinkButton>--%>
