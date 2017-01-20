@@ -8,6 +8,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <h1>Setup a Promotion:</h1>
+        <h5>Fields marked with an asterisk (<label style="color:red">*</label>) are required fields.</h5>
         <br />
         <div class="row">
             <div class="col-sm-3">
