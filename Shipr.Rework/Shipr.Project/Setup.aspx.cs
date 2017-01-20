@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ShipR.Business;
+using ShipR.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +13,13 @@ namespace Shipr.Rework.Shipr.Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Lookup lookup;
+            Promo promo;
+            if (!IsPostBack)
+            {
+                lookup = PromoManagement.GetGenericLookUp();
+                uiStoreSelect.Source = lookup.Stores;
+            }
         }
     }
 }

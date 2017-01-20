@@ -6967,7 +6967,7 @@ button.list-group-item-danger {
     display: block;
     margin-bottom: 0.75rem;
     background-color: #fff;
-    border-radius: 0.25rem;
+    border-radius: 0rem;
     border: 1px solid rgba(0, 0, 0, 0.125);
     /*margin-bottom: 20px;
     background-color: #fff;
@@ -6984,8 +6984,8 @@ button.list-group-item-danger {
 .panel-heading {
     padding: 10px 15px;
     border-bottom: 1px solid transparent;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
     .panel-heading > .dropdown .dropdown-toggle {

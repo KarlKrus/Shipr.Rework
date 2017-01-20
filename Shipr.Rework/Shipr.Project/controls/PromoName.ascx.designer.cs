@@ -7,54 +7,45 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Shipr.Rework.Shipr.Project {
+namespace Shipr.Rework.Shipr.Project.controls {
     
     
-    public partial class Setup {
+    public partial class PromoName {
         
         /// <summary>
-        /// txtbxSKUSearch control.
+        /// ltrlTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtbxSKUSearch;
+        protected global::System.Web.UI.WebControls.Literal ltrlTitle;
         
         /// <summary>
-        /// lnkbtnSKUSearch control.
+        /// plchldrPromoName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkbtnSKUSearch;
+        protected global::System.Web.UI.WebControls.PlaceHolder plchldrPromoName;
         
         /// <summary>
-        /// pnlSKUResult control.
+        /// lblPromoName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlSKUResult;
+        protected global::System.Web.UI.WebControls.Label lblPromoName;
         
         /// <summary>
-        /// uiPromoName control.
+        /// txtbxPromoName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Shipr.Rework.Shipr.Project.controls.PromoName uiPromoName;
-        
-        /// <summary>
-        /// uiStoreSelect control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Shipr.Rework.Shipr.Project.controls.StoreSelector uiStoreSelect;
+        protected global::System.Web.UI.WebControls.TextBox txtbxPromoName;
     }
 }

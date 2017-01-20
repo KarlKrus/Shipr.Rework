@@ -79,6 +79,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Shipr.Project\controls\PromoName.ascx" />
+    <Content Include="Shipr.Project\controls\StoreSelector.ascx" />
     <Content Include="Shipr.Project\css\checkbox.css" />
     <Content Include="Shipr.Project\Default.Master" />
     <None Include="Properties\PublishProfiles\Carl.pubxml" />
@@ -125,6 +127,20 @@
     <Compile Include="ShipR.Entities\Shipping.cs" />
     <Compile Include="ShipR.Entities\Store.cs" />
     <Compile Include="ShipR.Entities\User.cs" />
+    <Compile Include="Shipr.Project\controls\PromoName.ascx.cs">
+      <DependentUpon>PromoName.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\PromoName.ascx.designer.cs">
+      <DependentUpon>PromoName.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\StoreSelector.ascx.cs">
+      <DependentUpon>StoreSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\StoreSelector.ascx.designer.cs">
+      <DependentUpon>StoreSelector.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Shipr.Project\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,9 +170,7 @@
       <DependentUpon>Setup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Shipr.Project\controls\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
