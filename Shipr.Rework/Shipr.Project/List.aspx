@@ -38,7 +38,7 @@
                                 </HeaderTemplate>
 
                                 <ItemTemplate>
-                                    <asp:CheckBox ID="chkSelect" runat="server" Visible="true" Text=" " CssClass="checkbox checkbox-primary"/>
+                                    <asp:CheckBox ID="chkSelect" runat="server" Visible="true"/>
                                 </ItemTemplate>
 
                             </asp:TemplateField>

@@ -74,5 +74,32 @@ namespace Shipr.Rework.Shipr.Project {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Shipr.Rework.Shipr.Project.controls.ShipMethodSelector uiShipMethod;
+        
+        /// <summary>
+        /// chkIsMerchVisible control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkIsMerchVisible;
+        
+        /// <summary>
+        /// lnkbtnSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkbtnSubmit;
+        
+        /// <summary>
+        /// lnkbtnCancel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkbtnCancel;
     }
 }

@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Shipr.Project/Default.Master" AutoEventWireup="true" CodeBehind="Setup.aspx.cs" Inherits="Shipr.Rework.Shipr.Project.Setup" %>
+
 <%@ Register TagPrefix="ucPromoName" TagName="PromoName" Src="~/Shipr.Project/controls/PromoName.ascx" %>
 <%@ Register TagPrefix="ucStoreSelector" TagName="StoreSelector" Src="~/Shipr.Project/controls/StoreSelector.ascx" %>
 <%@ Register TagPrefix="ucDuration" TagName="Duration" Src="~/Shipr.Project/controls/Duration.ascx" %>
@@ -8,7 +9,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <h1>Setup a Promotion:</h1>
-        <h5>Fields marked with an asterisk (<label style="color:red">*</label>) are required fields.</h5>
+        <h5>Fields marked with an asterisk (<label style="color: red">*</label>) are required fields.</h5>
         <br />
         <div class="row">
             <div class="col-sm-3">
@@ -33,7 +34,20 @@
                 <ucStoreSelector:StoreSelector ID="uiStoreSelect" runat="server" Title="3. Choose the store/s that the promo applies to" />
                 <ucDuration:Duration ID="uiDuration" runat="server" Title="4. Set the promo duration" />
                 <ucShipMethodSelector:ShipMethodSelector ID="uiShipMethod" runat="server" Title="5. Choose a shipping method that the promo applies to" />
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h5 class="headerSteps">9. Set PDP Text Visibility</h5>
+                    </div>
+                    <div class="panel-body">
+                        <asp:CheckBox ID="chkIsMerchVisible" runat="server" Visible="true" Text="Override PDP text display rule" CssClass="checkbox checkbox-success" />
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body text-center" style="font-size:xx-large">
+                        <asp:LinkButton ID="lnkbtnSubmit" runat="server" CssClass="btn btn-outline-primary">Submit</asp:LinkButton>
+                        <asp:LinkButton ID="lnkbtnCancel" runat="server" CssClass="btn btn-outline-danger">Cancel</asp:LinkButton>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </asp:Content>
