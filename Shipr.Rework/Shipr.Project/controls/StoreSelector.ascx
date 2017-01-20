@@ -5,9 +5,9 @@
             <asp:Literal ID="ltrlTitle" runat="server"></asp:Literal></h5>
     </div>
     <div class="panel-body">
-        <asp:CheckBoxList ID="chklstStore" runat="server" RepeatDirection="Horizontal" 
-            RepeatColumns="4" CssClass="table table-condensed table-responsive table-bordered" 
-             RepeatLayout="Table">
+        <asp:CheckBoxList ID="chklstStore" runat="server" RepeatDirection="Horizontal"
+            RepeatColumns="4" CssClass="checkbox table table-responsive"
+            RepeatLayout="Table">
         </asp:CheckBoxList>
     </div>
 </div>

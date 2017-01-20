@@ -34,11 +34,11 @@
                             <asp:TemplateField>
                                 <HeaderTemplate>
                                     <input type="checkbox" id="chkAll" name="chkAll"
-                                        onclick="Check(this)" disabled="disabled" />
+                                        onclick="Check(this)" disabled="disabled"/>
                                 </HeaderTemplate>
 
                                 <ItemTemplate>
-                                    <asp:CheckBox ID="chkSelect" runat="server" Visible="true" />
+                                    <asp:CheckBox ID="chkSelect" runat="server" Visible="true" Text=" " CssClass="checkbox checkbox-primary"/>
                                 </ItemTemplate>
 
                             </asp:TemplateField>

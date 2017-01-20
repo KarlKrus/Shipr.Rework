@@ -86,6 +86,10 @@
     <Content Include="Shipr.Project\css\checkbox.css" />
     <Content Include="Shipr.Project\Default.Master" />
     <None Include="Properties\PublishProfiles\Carl.pubxml" />
+    <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -97,6 +101,7 @@
     <Content Include="Shipr.Project\css\bootstrap.css" />
     <Content Include="Shipr.Project\css\site.css" />
     <Content Include="Shipr.Project\Default.aspx" />
+    <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Shipr.Project\images\delivery.jpg" />
     <Content Include="Shipr.Project\images\delvery2.jpg" />
     <Content Include="Shipr.Project\images\fb.png" />
