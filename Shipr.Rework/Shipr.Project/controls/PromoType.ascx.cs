@@ -73,7 +73,7 @@ namespace Shipr.Rework.Shipr.Project.controls
                 ddlDiscountType.DataTextField = "DiscountTypeDesc";
                 pnlDiscountType.DataBind();
                 if (DiscountTypeID <= 0)
-                    ddlDiscountType.SelectedIndex = 2;
+                    ddlDiscountType.SelectedIndex = 0;
                 else
                     ddlDiscountType.SelectedIndex = DiscountTypeID;
 
@@ -86,7 +86,7 @@ namespace Shipr.Rework.Shipr.Project.controls
             DiscountTypeID = Convert.ToInt32(ddlDiscountType.SelectedValue);
             if (ddlDiscountType.SelectedIndex == 0 || ddlDiscountType.SelectedIndex == 1 || ddlDiscountType.SelectedIndex == 5) //1:Free and 0:no selected , 5: None
             {
-                lblDiscountValue.Visible = false; lblReqSign.Visible = false;
+                lblDiscountValue.Visible = false; ltlReqSign.Visible = false;
                 txtDiscountValue.Visible = false; lblInptGrpDiscountValue.Visible = false;
             }
             else
@@ -100,6 +100,8 @@ namespace Shipr.Rework.Shipr.Project.controls
 
                 lblDiscountValue.Visible = true;
                 txtDiscountValue.Visible = true;
+                ltlReqSign.Visible = true;
+                lblInptGrpDiscountValue.Visible = true;
             }
         }
     }

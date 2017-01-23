@@ -91,9 +91,9 @@
                     </asp:DropDownList>
                 </div>
                 <div class="col-sm-6">
-                    <asp:Label ID="lblDiscountValue" runat="server" Text="Label">Discount Value:</asp:Label><asp:Label ID="lblReqSign" runat="server" Style="color: red" Text="*"></asp:Label>
+                    <asp:Label ID="lblDiscountValue" runat="server" Text="Label">Discount Value:</asp:Label><asp:Literal ID="ltlReqSign" runat="server"><label style="color:red">*</label></asp:Literal>
                     <div class="input-group">
-                        <asp:Label ID="lblInptGrpDiscountValue" runat="server" Text="" CssClass="input-group-addon"></asp:Label>
+                        <asp:Label ID="lblInptGrpDiscountValue" runat="server" Text="$" CssClass="input-group-addon"></asp:Label>
                         <asp:TextBox ID="txtDiscountValue" runat="server" MaxLength="7" CssClass="form-control" aria-describedby="lblInptGrpDiscountValue"></asp:TextBox>
                     </div>
                 </div>
