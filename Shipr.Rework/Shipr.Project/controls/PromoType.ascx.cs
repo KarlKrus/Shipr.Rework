@@ -92,11 +92,17 @@ namespace Shipr.Rework.Shipr.Project.controls
             else
             {
                 if (ddlDiscountType.SelectedIndex == 4) //exact dollar charge
-                { lblDiscountValue.Text = "Shipping Charge:"; lblInptGrpDiscountValue.Text = "$"; }
+                {
+                    lblDiscountValue.Text = "Shipping Charge:"; lblInptGrpDiscountValue.Text = "$";
+                }
                 else if (ddlDiscountType.SelectedIndex == 3) //percent discount
-                { lblDiscountValue.Text = "Percent Value:"; lblInptGrpDiscountValue.Text = "%"; }
-                else
+                {
+                    lblDiscountValue.Text = "Percent Value:"; lblInptGrpDiscountValue.Text = "%";
+                }
+                else if (ddlDiscountType.SelectedIndex == 2)
+                {
                     lblDiscountValue.Text = "Discount Value:"; lblInptGrpDiscountValue.Text = "$";
+                }
 
                 lblDiscountValue.Visible = true;
                 txtDiscountValue.Visible = true;
