@@ -13,5 +13,17 @@ namespace Shipr.Rework.Shipr.Project.controls
         {
 
         }
+
+        protected void ddlIncreaseBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlIncreaseBox.SelectedIndex == 0)
+            {
+                lblInptGrpDollarPercent.Text = "%"; txtIncreaseDollar.Visible = false; txtIncreasePercent.Visible = true; txtIncreaseDollar.Text = "0";
+            }
+            else
+            {
+                lblInptGrpDollarPercent.Text = "$"; txtIncreaseDollar.Visible = true; txtIncreasePercent.Visible = false; txtIncreasePercent.Text = "0";
+            }
+        }
     }
 }
