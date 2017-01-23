@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Shipr.Rework.Shipr.Project.Default1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Shipr.Rework.Shipr.Project._Default" %>
 
 <!DOCTYPE html>
 

@@ -81,9 +81,11 @@
     <Content Include="packages.config" />
     <Content Include="Shipr.Project\controls\Duration.ascx" />
     <Content Include="Shipr.Project\controls\PromoName.ascx" />
+    <Content Include="Shipr.Project\controls\PromoType.ascx" />
     <Content Include="Shipr.Project\controls\ShipMethodSelector.ascx" />
     <Content Include="Shipr.Project\controls\StoreSelector.ascx" />
     <Content Include="Shipr.Project\css\checkbox.css" />
+    <Content Include="Shipr.Project\Default.aspx" />
     <Content Include="Shipr.Project\Default.Master" />
     <None Include="Properties\PublishProfiles\Carl.pubxml" />
     <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.eot" />
@@ -100,7 +102,6 @@
   <ItemGroup>
     <Content Include="Shipr.Project\css\bootstrap.css" />
     <Content Include="Shipr.Project\css\site.css" />
-    <Content Include="Shipr.Project\Default.aspx" />
     <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Shipr.Project\images\delivery.jpg" />
     <Content Include="Shipr.Project\images\delvery2.jpg" />
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="Shipr.Project\controls\PromoName.ascx.designer.cs">
       <DependentUpon>PromoName.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\PromoType.ascx.cs">
+      <DependentUpon>PromoType.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipr.Project\controls\PromoType.ascx.designer.cs">
+      <DependentUpon>PromoType.ascx</DependentUpon>
     </Compile>
     <Compile Include="Shipr.Project\controls\ShipMethodSelector.ascx.cs">
       <DependentUpon>ShipMethodSelector.ascx</DependentUpon>

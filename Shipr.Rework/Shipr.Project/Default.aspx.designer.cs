@@ -10,7 +10,7 @@
 namespace Shipr.Rework.Shipr.Project {
     
     
-    public partial class Default1 {
+    public partial class _Default {
         
         /// <summary>
         /// form1 control.

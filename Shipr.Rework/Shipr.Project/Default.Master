@@ -18,7 +18,7 @@
         <div class="navwell navbar-fixed-top">
             <div class="row ">
                 <div class="pull-left">
-                    <a href="Default.aspx">
+                    <a href="./">
                         <img alt="" src="images/logoname.png" height="80" width="200" class="img-responsive" /></a>
                 </div>
                 <div class="pull-right">

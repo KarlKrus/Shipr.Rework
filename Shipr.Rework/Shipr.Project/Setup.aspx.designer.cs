@@ -49,6 +49,15 @@ namespace Shipr.Rework.Shipr.Project {
         protected global::Shipr.Rework.Shipr.Project.controls.PromoName uiPromoName;
         
         /// <summary>
+        /// uiPromoType control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Shipr.Rework.Shipr.Project.controls.PromoType uiPromoType;
+        
+        /// <summary>
         /// uiStoreSelect control.
         /// </summary>
         /// <remarks>
