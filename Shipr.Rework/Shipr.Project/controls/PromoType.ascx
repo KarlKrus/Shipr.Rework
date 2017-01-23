@@ -15,7 +15,7 @@
                 <asp:DropDownList ID="ddlPromoType" runat="server" CssClass="form-control"></asp:DropDownList>
             </div>
             <div class="col-sm-6">
-                <asp:CheckBox ID="chkExactPromo" runat="server" Text="Exact Promo Full Order" CssClass="checkbox checkbox-info" />
+                <asp:CheckBox ID="chkExactPromo" runat="server" Text="Exact Promo/ Full Order" CssClass="checkbox checkbox-info" />
             </div>
         </div>
         <hr />
@@ -38,7 +38,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <asp:Label ID="lblWeightMin" runat="server" Text="Label">Weight  From:</asp:Label><label style="color: red">*</label>
+                    <asp:Label ID="lblWeightMin" runat="server" Text="Label">Weight From:</asp:Label><label style="color: red">*</label>
                     <div class="input-group">
                         <asp:TextBox ID="txtWeightMin" MaxLength="7" runat="server" CssClass="form-control" aria-describedby="basic-addon3">0</asp:TextBox>
                         <span class="input-group-addon" id="basic-addon3">lbs.</span>
