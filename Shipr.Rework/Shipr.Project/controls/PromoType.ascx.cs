@@ -73,7 +73,7 @@ namespace Shipr.Rework.Shipr.Project.controls
                 ddlDiscountType.DataTextField = "DiscountTypeDesc";
                 pnlDiscountType.DataBind();
                 if (DiscountTypeID <= 0)
-                    ddlDiscountType.SelectedIndex = 0;
+                    ddlDiscountType.SelectedIndex = 2;
                 else
                     ddlDiscountType.SelectedIndex = DiscountTypeID;
 
