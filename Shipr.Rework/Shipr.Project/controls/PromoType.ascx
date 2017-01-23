@@ -81,5 +81,23 @@
                 </div>
             </div>
         </asp:Panel>
+        <asp:Panel ID="pnlDiscountType" runat="server">
+            <hr />
+            <div class="row">
+                <div class="col-sm-6">
+                    <asp:Label ID="lblDiscountType" runat="server" Text="Label">Discount Type:</asp:Label><label style="color: red">*</label>
+                    <asp:DropDownList ID="ddlDiscountType" runat="server" CssClass="form-control"
+                        OnSelectedIndexChanged="ddlDiscountType_SelectedIndexChanged" AutoPostBack="True">
+                    </asp:DropDownList>
+                </div>
+                <div class="col-sm-6">
+                    <asp:Label ID="lblDiscountValue" runat="server" Text="Label">Discount Value:</asp:Label><asp:Label ID="lblReqSign" runat="server" Style="color: red" Text="*"></asp:Label>
+                    <div class="input-group">
+                        <asp:Label ID="lblInptGrpDiscountValue" runat="server" Text="" CssClass="input-group-addon"></asp:Label>
+                        <asp:TextBox ID="txtDiscountValue" runat="server" MaxLength="7" CssClass="form-control" aria-describedby="lblInptGrpDiscountValue"></asp:TextBox>
+                    </div>
+                </div>
+            </div>
+        </asp:Panel>
     </div>
 </div>
