@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ShipR.Business;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -36,6 +38,7 @@ namespace Shipr.Rework.Shipr.Project.controls
         protected void Page_Load(object sender, EventArgs e)
         {
             loadReference();
+            loadManufacturers();
         }
 
         protected void ddlIncreaseBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -116,5 +119,24 @@ namespace Shipr.Rework.Shipr.Project.controls
         {
             cblSkuList.Items.Add(txtSku.Text);
         }
+
+        private void loadManufacturers()
+        {
+            DataTable dt = PromoManagement.GetAllManufacturers().Tables[0];
+            cblManufacturer.DataSource = dt;
+            cblManufacturer.DataValueField = "vendno";
+            cblManufacturer.DataTextField = "Manufacturer";
+            cblManufacturer.DataBind();
+            //if (Manufacturers.Length == 0)
+            //    cblManufacturer.SelectedIndex = 0;
+            pnlManufacturer.Visible = true;
+            lblManufacturer.Visible = true;
+            //uxLabelSelectedManufacturer.Visible = true;
+            //uxLabelSelectedManufacturer.Text = Manufacturers;
+
+            //if (Manufacturers.Length > 0)
+            //    setManufacturers();
+        }
+
     }
 }

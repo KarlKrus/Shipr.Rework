@@ -142,20 +142,40 @@
                     <asp:DropDownList ID="ddlCategory" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
                 </div>
                 <div class="col-sm-3">
-                    <asp:Label ID="lblSubMajor" runat="server">SubMajor</asp:Label><label style="font-weight:400">:</label>
+                    <asp:Label ID="lblSubMajor" runat="server">SubMajor</asp:Label><label style="font-weight: 400">:</label>
                     <asp:DropDownList ID="ddlSubMajor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
                 </div>
                 <div class="col-sm-3">
-                    <asp:Label ID="lblMinor" runat="server">Minor</asp:Label><label style="font-weight:400">:</label>
-                    <asp:DropDownList ID="ddlMinor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList></div>
+                    <asp:Label ID="lblMinor" runat="server">Minor</asp:Label><label style="font-weight: 400">:</label>
+                    <asp:DropDownList ID="ddlMinor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
+                </div>
                 <div class="col-sm-3">
-                    <asp:Label ID="lblSubMinor" runat="server">SubMinor</asp:Label><label style="font-weight:400">:</label>
-                    <asp:DropDownList ID="ddlSubMinor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList></div>
+                    <asp:Label ID="lblSubMinor" runat="server">SubMinor</asp:Label><label style="font-weight: 400">:</label>
+                    <asp:DropDownList ID="ddlSubMinor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
+                </div>
             </div>
         </asp:Panel>
         <!--Manufacturer-->
         <asp:Panel ID="pnlManufacturer" runat="server">
-
+            <hr />
+            <asp:Label ID="lblManufacturer" runat="server">Manufacturer:</asp:Label><label style="color: red">*</label>
+            <div class="row">
+                <div class="col-sm-5">
+                    <asp:Panel ID="pnlCBLManufact" runat="server" ScrollBars="Auto" Height="250" CssClass="well">
+                        <asp:CheckBoxList ID="cblManufacturer" runat="server" CssClass="checkbox checkbox-info"></asp:CheckBoxList>
+                    </asp:Panel>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <asp:LinkButton ID="lnkbtnRight" runat="server" CssClass="btn btn-info"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></asp:LinkButton>
+                    <br /><br />
+                    <asp:LinkButton ID="lnkbtnLeft" runat="server" CssClass="btn btn-danger"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></asp:LinkButton>
+                </div>
+                <div class="col-sm-5">
+                    <asp:Panel ID="pnlCBLSelectedManufact" runat="server" ScrollBars="Auto" Height="250" CssClass="well">
+                        <asp:CheckBoxList ID="cblSelectedManufacturer" runat="server" CssClass="checkbox checkbox-danger"></asp:CheckBoxList>
+                    </asp:Panel>
+                </div>
+            </div>
         </asp:Panel>
     </div>
 </div>
