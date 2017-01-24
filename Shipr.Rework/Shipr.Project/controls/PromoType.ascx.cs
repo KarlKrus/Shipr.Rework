@@ -40,6 +40,7 @@ namespace Shipr.Rework.Shipr.Project.controls
         {
             loadReference();
             loadManufacturers();
+            loadPaymentMethods();
         }
 
         protected void ddlIncreaseBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -146,8 +147,8 @@ namespace Shipr.Rework.Shipr.Project.controls
             cblPaymentMethod.DataValueField = "Key";
             cblPaymentMethod.DataTextField = "Value";
             cblPaymentMethod.DataBind();
-            if (PaymentMethods.Length == 0)
-                cblPaymentMethod.SelectedIndex = 0;
+            //if (PaymentMethods.Length == 0)
+            //    cblPaymentMethod.SelectedIndex = 0;
             pnlPaymentMethod.Visible = true;
             lblPaymentMethod.Visible = true;
             //uxLabelSelectedPayment.Visible = true;
