@@ -26,7 +26,12 @@ namespace ShipR.Data
            Cat_GetWDSubMinors,
            RAP_GetAll_Manufacturers,
            usp_GetAllPromos,
-           prd_GetEdpFromLineListing_DPno,
+
+            // ADDD IN ACTIVE PROMO FOR STORED PROC-----------xxxxxxxxxxxxxx---------------------------- 
+            //-----------------Create SP on Database with same Name---- copy the code of usp_GetAllActivePromos change the where value to 0 ---------------
+            //usp_GetAllInActivePromos,
+
+            prd_GetEdpFromLineListing_DPno,
            prd_GetDPNumberFromLineListing,
            usp_Add_PromoExceptions,
            usp_Delete_PromoExceptions,

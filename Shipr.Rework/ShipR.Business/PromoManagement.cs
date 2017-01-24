@@ -37,6 +37,15 @@ namespace ShipR.Business
             return PromoData.GetActivePromos();
         }
 
+
+        // ---------------------xxxxxxxxxxxxxxxxxxx ---------------------
+        //[DataObjectMethod(DataObjectMethodType.Select)]
+        //public static DataSet GetAllInactivePromos()
+        //{
+        //    return PromoData.GetAllInactivePromos();
+        //}
+
+
         [DataObjectMethod(DataObjectMethodType.Select)]
         public static DataSet GetAllPromos()
         {
