@@ -265,6 +265,14 @@ namespace ShipR.Data
             return db.ExecuteDataSet(command);
         }
 
+        //----------------------------xxxxxxxxxxxxxxxxxx  CREATE FOR INACTIVE PROMO---------------------------
+        //public static DataSet GetAllInactivePromos()
+        //{
+        //    Database db = DatabaseFactory.CreateDatabase("Rap");
+        //    DbCommand command = db.GetStoredProcCommand(StoredProcedures.usp_GetAllInActivePromos)
+        //    return db.ExecuteDataSet(command);
+        //}
+
 
         public static DataSet GetCategoryMajors()
         {
