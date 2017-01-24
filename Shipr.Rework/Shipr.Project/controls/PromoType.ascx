@@ -167,7 +167,8 @@
                 </div>
                 <div class="col-sm-2 text-center">
                     <asp:LinkButton ID="lnkbtnRight" runat="server" CssClass="btn btn-info"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></asp:LinkButton>
-                    <br /><br />
+                    <br />
+                    <br />
                     <asp:LinkButton ID="lnkbtnLeft" runat="server" CssClass="btn btn-danger"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></asp:LinkButton>
                 </div>
                 <div class="col-sm-5">
@@ -180,9 +181,12 @@
         <!--Payment Method-->
         <asp:Panel ID="pnlPaymentMethod" runat="server">
             <hr />
-            <div class="row"></div>
-            <asp:Label ID="lblPaymentMethod" runat="server">Payment Method:</asp:Label><label style="color: red">*</label>
-            <asp:CheckBoxList ID="cbl" runat="server" CssClass="checkbox checkbox-danger table table-responsive" RepeatColumns="5" RepeatDirection="Horizontal"></asp:CheckBoxList>
+            <div class="row">
+                <div class="col-sm-12">
+                    <asp:Label ID="lblPaymentMethod" runat="server">Payment Method:</asp:Label><label style="color: red">*</label>
+                    <asp:CheckBoxList ID="cblPaymentMethod" runat="server" CssClass="checkbox checkbox-primary table table-responsive" RepeatColumns="5" RepeatDirection="Horizontal"></asp:CheckBoxList>
+                </div>
+            </div>
         </asp:Panel>
     </div>
 </div>
