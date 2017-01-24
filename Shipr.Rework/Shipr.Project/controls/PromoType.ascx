@@ -145,9 +145,17 @@
                     <asp:Label ID="lblSubMajor" runat="server">SubMajor</asp:Label><label style="font-weight:400">:</label>
                     <asp:DropDownList ID="ddlSubMajor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
                 </div>
-                <div class="col-sm-3"></div>
-                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <asp:Label ID="lblMinor" runat="server">Minor</asp:Label><label style="font-weight:400">:</label>
+                    <asp:DropDownList ID="ddlMinor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList></div>
+                <div class="col-sm-3">
+                    <asp:Label ID="lblSubMinor" runat="server">SubMinor</asp:Label><label style="font-weight:400">:</label>
+                    <asp:DropDownList ID="ddlSubMinor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList></div>
             </div>
+        </asp:Panel>
+        <!--Manufacturer-->
+        <asp:Panel ID="pnlManufacturer" runat="server">
+
         </asp:Panel>
     </div>
 </div>

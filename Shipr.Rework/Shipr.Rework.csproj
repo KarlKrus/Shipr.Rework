@@ -84,7 +84,9 @@
     <Content Include="Shipr.Project\controls\PromoType.ascx" />
     <Content Include="Shipr.Project\controls\ShipMethodSelector.ascx" />
     <Content Include="Shipr.Project\controls\StoreSelector.ascx" />
+    <Content Include="Shipr.Project\css\bootstrap.css" />
     <Content Include="Shipr.Project\css\checkbox.css" />
+    <Content Include="Shipr.Project\css\site.css" />
     <Content Include="Shipr.Project\Default.aspx" />
     <Content Include="Shipr.Project\Default.Master" />
     <None Include="Properties\PublishProfiles\Carl.pubxml" />
@@ -100,8 +102,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Shipr.Project\css\bootstrap.css" />
-    <Content Include="Shipr.Project\css\site.css" />
     <Content Include="Shipr.Project\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Shipr.Project\images\delivery.jpg" />
     <Content Include="Shipr.Project\images\delvery2.jpg" />

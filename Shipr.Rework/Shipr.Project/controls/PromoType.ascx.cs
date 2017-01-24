@@ -105,6 +105,7 @@ namespace Shipr.Rework.Shipr.Project.controls
                 }
 
                 lblDiscountValue.Visible = true;
+
                 txtDiscountValue.Visible = true;
                 ltlReqSign.Visible = true;
                 lblInptGrpDiscountValue.Visible = true;
