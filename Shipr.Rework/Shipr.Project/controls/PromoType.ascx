@@ -179,7 +179,10 @@
         </asp:Panel>
         <!--Payment Method-->
         <asp:Panel ID="pnlPaymentMethod" runat="server">
+            <hr />
+            <div class="row"></div>
             <asp:Label ID="lblPaymentMethod" runat="server">Payment Method:</asp:Label><label style="color: red">*</label>
+            <asp:CheckBoxList ID="cbl" runat="server" CssClass="checkbox checkbox-danger table table-responsive" RepeatColumns="5" RepeatDirection="Horizontal"></asp:CheckBoxList>
         </asp:Panel>
     </div>
 </div>
