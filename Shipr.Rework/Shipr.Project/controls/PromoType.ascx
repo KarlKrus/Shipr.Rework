@@ -178,6 +178,8 @@
             </div>
         </asp:Panel>
         <!--Payment Method-->
-        <asp:Panel ID="pnlPaymentMethod" runat="server"></asp:Panel>
+        <asp:Panel ID="pnlPaymentMethod" runat="server">
+            <asp:Label ID="lblPaymentMethod" runat="server">Payment Method:</asp:Label><label style="color: red">*</label>
+        </asp:Panel>
     </div>
 </div>
