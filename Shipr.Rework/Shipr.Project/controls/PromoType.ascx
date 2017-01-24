@@ -81,6 +81,7 @@
                 </div>
             </div>
         </asp:Panel>
+        <!--Discount Type-->
         <asp:Panel ID="pnlDiscountType" runat="server">
             <hr />
             <div class="row">
@@ -97,6 +98,41 @@
                         <asp:TextBox ID="txtDiscountValue" runat="server" MaxLength="7" CssClass="form-control" aria-describedby="lblInptGrpDiscountValue"></asp:TextBox>
                     </div>
                 </div>
+            </div>
+        </asp:Panel>
+        <!--Skus-->
+        <asp:Panel ID="pnlSKU" runat="server">
+            <hr />
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-8">
+                    <asp:Label ID="lblSku" runat="server">Sku:</asp:Label><label style="color: red">*</label>
+                    <div class="input-group">
+                        <asp:TextBox ID="txtSku" runat="server" CssClass=" form-control" MaxLength="8" />
+                        <span class="input-group-btn">
+                            <asp:LinkButton ID="lnkbtnAddSku" runat="server" CssClass=" btn btn-outline-success" OnClick="lnkbtnAddSku_Click">Add</asp:LinkButton>
+                            <asp:LinkButton ID="lnkbtnRemoveSku" runat="server" CssClass=" btn btn-outline-danger">Remove</asp:LinkButton>
+                        </span>
+                    </div>
+                    <%--<label style="font-weight: 400">List:</label>--%>
+                    <asp:CheckBoxList ID="cblSkuList" runat="server" CssClass="checkbox checkbox-danger table table-responsive" RepeatColumns="5" RepeatDirection="Horizontal"></asp:CheckBoxList>
+                </div>
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </asp:Panel>
+        <!--Category Code-->
+        <asp:Panel ID="pnlCategoryCodes" runat="server">
+            <hr />
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <h5>Category Code:<label style="color: red">*</label>
+                        <asp:TextBox ID="lblSelectedCategory" runat="server" CssClass="form-control" Enabled="false"></asp:TextBox>
+                    </h5>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
         </asp:Panel>
     </div>

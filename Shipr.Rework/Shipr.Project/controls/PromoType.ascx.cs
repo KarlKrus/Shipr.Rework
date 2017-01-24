@@ -110,5 +110,10 @@ namespace Shipr.Rework.Shipr.Project.controls
                 lblInptGrpDiscountValue.Visible = true;
             }
         }
+
+        protected void lnkbtnAddSku_Click(object sender, EventArgs e)
+        {
+            cblSkuList.Items.Add(txtSku.Text);
+        }
     }
 }
