@@ -19,6 +19,7 @@
             </div>
         </div>
         <hr />
+        <!--Order Level -->
         <asp:Panel ID="pnlOrderLevel" runat="server">
             <div class="row">
                 <div class="col-sm-3">
@@ -51,6 +52,7 @@
                 </div>
             </div>
         </asp:Panel>
+        <!--Increase Percent-->
         <asp:Panel ID="pnlIncreasePercent" runat="server">
             <hr />
             <div class="row">
@@ -133,6 +135,18 @@
                     </h5>
                 </div>
                 <div class="col-sm-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <asp:Label ID="lblCategory" runat="server">Category:</asp:Label><label style="color: red">*</label>
+                    <asp:DropDownList ID="ddlCategory" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
+                </div>
+                <div class="col-sm-3">
+                    <asp:Label ID="lblSubMajor" runat="server">SubMajor</asp:Label><label style="font-weight:400">:</label>
+                    <asp:DropDownList ID="ddlSubMajor" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
             </div>
         </asp:Panel>
     </div>
