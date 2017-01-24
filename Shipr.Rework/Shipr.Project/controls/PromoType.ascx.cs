@@ -1,5 +1,6 @@
 ﻿using ShipR.Business;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -136,6 +137,24 @@ namespace Shipr.Rework.Shipr.Project.controls
 
             //if (Manufacturers.Length > 0)
             //    setManufacturers();
+        }
+
+        private void loadPaymentMethods()
+        {
+            Hashtable dt = PromoManagement.GetAllPaymentMethods();
+            cblPaymentMethod.DataSource = dt;
+            cblPaymentMethod.DataValueField = "Key";
+            cblPaymentMethod.DataTextField = "Value";
+            cblPaymentMethod.DataBind();
+            if (PaymentMethods.Length == 0)
+                cblPaymentMethod.SelectedIndex = 0;
+            pnlPaymentMethod.Visible = true;
+            lblPaymentMethod.Visible = true;
+            //uxLabelSelectedPayment.Visible = true;
+            //uxLabelSelectedPayment.Text = PaymentMethods;
+
+            //if (PaymentMethods.Length > 0)
+            //    setPaymentMethods();
         }
 
     }
