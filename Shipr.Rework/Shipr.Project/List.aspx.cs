@@ -57,5 +57,16 @@ namespace Shipr.Rework.Shipr.Project
                 grdvwPromos.DataBind();
             }
         }
+
+
+        //--------------xxxxxxxxxxx CREATE xxxxxxxxxxxxxxxxxx-------------------
+        //protected void ShowInactive(object sender,EventArgs e)
+        //{
+
+        //    //Create SP for INACTIVE
+        //    //gridPromos.DataSource = PromoManagement.GetAllInactivePromos().Tables[0];
+        //    //gridPromos.DataBind();
+        //}
+
     }
 }
