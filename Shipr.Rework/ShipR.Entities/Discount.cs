@@ -13,7 +13,9 @@ namespace ShipR.Entities
 		public int DiscountTypeID { get; set; }
 		public String DiscountTypeDesc { get; set; }
         public String DetailedDesc { get; set; }
-
+        /// <summary>
+        /// TEST TEST 
+        /// </summary>
         public Discount()
 		{
             //no logic
