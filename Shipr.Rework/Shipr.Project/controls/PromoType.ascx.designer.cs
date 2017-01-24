@@ -488,5 +488,14 @@ namespace Shipr.Rework.Shipr.Project.controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList cblSelectedManufacturer;
+        
+        /// <summary>
+        /// pnlPaymentMethod control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlPaymentMethod;
     }
 }

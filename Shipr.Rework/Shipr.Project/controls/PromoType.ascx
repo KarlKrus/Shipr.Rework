@@ -177,5 +177,7 @@
                 </div>
             </div>
         </asp:Panel>
+        <!--Payment Method-->
+        <asp:Panel ID="pnlPaymentMethod" runat="server"></asp:Panel>
     </div>
 </div>
